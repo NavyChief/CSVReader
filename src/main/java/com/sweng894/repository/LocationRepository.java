@@ -17,8 +17,8 @@ import org.springframework.stereotype.Repository;
 @Repository
 public class LocationRepository {
     private String AWS_ENDPOINT = "https://dynamodb.us-east-1.amazonaws.com";
-    private String AWS_ACCESS_KEY = "AKIAQNCWC4ZWSFL2JN6I";
-    private String AWS_SECRET_KEY = "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";
+    private String AWS_ACCESS_KEY = "";
+    private String AWS_SECRET_KEY = "";
 
     private AmazonDynamoDB client = AmazonDynamoDBClientBuilder
             .standard()
